@@ -1,0 +1,9 @@
+# IDE specifics
+.idea
+
+# Python specifics
+__pycache__/
+
+# Resulting files
+tree_distribution.csv
+output.log
