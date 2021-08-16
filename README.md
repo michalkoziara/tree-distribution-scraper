@@ -45,7 +45,7 @@ All collected data should be saved in ``tree_distribution.csv`` file.
 Any errors are saved to the ``output.log`` file.
 
 Please notice that by default the application is running with the usage of 8 processes.
-You can increase the number of processes that collects the data by changing ``constants.py`` file.
+You can increase the number of processes that collects the data by changing ``config.py`` file.
 
 ## Author
 
