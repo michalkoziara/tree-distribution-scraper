@@ -3,7 +3,7 @@
 ### The web scraper for collecting tree genus distribution data.
 
 The goal of this project is to implement the web scraper that collects tree species distribution data for given list of tree genera.
-The distribution of tree species is collected from U.S. National Plant Germplasm System (https://npgsweb.ars-grin.gov/gringlobal/search).
+The distribution of tree species is collected from [U.S. National Plant Germplasm System](https://npgsweb.ars-grin.gov/gringlobal/search).
 
 ## Getting Started
 
@@ -28,6 +28,7 @@ Detailed information about installation and configurations are provided at devel
 Step-by-step instructions for creating an environment [on Windows 10]:
 * Navigate to project directory in Command Prompt (cmd).
 * Use ``conda`` to create new environment with required dependencies.
+  
   ```
   conda create --name <env> --file requirements.txt
   ```
@@ -36,10 +37,7 @@ Step-by-step instructions for creating an environment [on Windows 10]:
 
 Step-by-step instructions for running the scraper [on Windows 10]:
 * Specify the list of genera in the ``trees.csv`` file.
-* Start the data scraping using the following command:
-  ```
-  python main.py
-  ```
+* Start the data scraping using ```python main.py``` command.
 
 All collected data should be saved in ``tree_distribution.csv`` file.
 Any errors are saved to the ``output.log`` file.
